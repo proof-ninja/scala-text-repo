@@ -5,5 +5,5 @@ object FoldRight1 {
    println(sum(list))
   }
 
-  def sum(list: List[Int]):Int = list.foldRight(0)((a, b) => a + b)
+  def sum(list: List[Int]):Int = list.foldRight(0)(_ + _) //(_ + _)は((a, b) => a + b)と同じ意味
 }
