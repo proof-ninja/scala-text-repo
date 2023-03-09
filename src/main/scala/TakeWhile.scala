@@ -1,4 +1,4 @@
-object takeWhile {
+object TakeWhile {
   def main(args: Array[String]): Unit = {
 val list = List(1,2,3,4,5,6)
     println(takeWhile(list)(x => x < 3))
