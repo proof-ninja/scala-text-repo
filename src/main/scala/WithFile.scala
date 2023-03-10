@@ -15,15 +15,10 @@ class WithFile {
     }
   }
 }
-
-//「try-finally」構文を使用することで、ファイルの読み取り中に例外が発生した場合でも、ファイルが正しく閉じられることが保証される
-
-
-
-
-object Main {
+object WithFile {
   def main(args: Array[String]): Unit = {
     val withFile = new WithFile()                                         //WithFileクラスをインスタンス化して、printFileメソッドを呼び出すコードを作成
     withFile.printFile("C:\\Users\\user\\scala\\scala-sandbox")
   }
 }
+//「try-finally」構文を使用することで、ファイルの読み取り中に例外が発生した場合でも、ファイルが正しく閉じられることが保証される
