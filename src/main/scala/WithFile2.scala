@@ -1,6 +1,6 @@
 import scala.io.Source
 
-object Main {
+object withFile2 {
   def main(args: Array[String]): Unit = {
     printFile("C:\\Users\\user\\scala\\scala-sandbox")
   }
