@@ -1,7 +1,7 @@
 import scala.io.{BufferedSource, Source}
 import scala.util.Using
 
-object Main {
+object FoldLeft {
   def main(args: Array[String]): Unit = {
     printFile("C:\\Users\\user\\scala\\scala-sandbox")
   }
