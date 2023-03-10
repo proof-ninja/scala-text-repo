@@ -5,8 +5,7 @@ class SwapArray {
     arr(j) = esc
   }
 }
-
-object Main {
+  object SwapArray{
   def main(args: Array[String]): Unit = {
     val array1 = Array(1,2,3,4,5)
     val swapArray = new SwapArray()
